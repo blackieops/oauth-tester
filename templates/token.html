@@ -1,0 +1,29 @@
+<!doctype html>
+<style>
+body {
+	margin: 4rem auto;
+	max-width: 32rem;
+	font-family: sans-serif;
+	line-height: 1.5em;
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	margin-bottom: 1rem;
+}
+</style>
+<h1>Auth Successful</h1>
+<dl>
+	<dt>Token Type</dt>
+	<dd>{{ .TokenType }}</dd>
+
+	<dt>Access Token</dt>
+	<dd><code>{{ .AccessToken }}</code></dd>
+
+	<dt>Refresh Token</dt>
+	<dd><code>{{ .RefreshToken }}</code></dd>
+
+	<dt>Expiry</dt>
+	<dd>{{ .Expiry }}</dd>
+</dl>

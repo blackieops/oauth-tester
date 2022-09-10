@@ -1,0 +1,6 @@
+---
+listen_port: 8181
+client_id: "928ee6085a3932f2"
+client_secret: "OixaTOaM7tKJcW48DoCr1A=="
+authorize_url: "http://localhost:8080/oauth"
+token_url: "http://localhost:8080/oauth/token"
