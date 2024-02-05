@@ -1,4 +1,4 @@
-module go.b8s.dev/oauth-test
+module go.b8s.dev/oauth-tester
 
 go 1.19
 
